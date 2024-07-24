@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #000000;
+    color:#F6F6F6;
+    height: 100 vh;
+    box-sizing: border-box; /*va a servir para que "body" sea un contenedor y sus hijos "child" no salgan de esta caja. "Border box" lo limita, "content box" no, respeta el tamaño de los hijos aunque sean más grandes que el padre */
+}
+
+strong {
+    color: #22D4FD;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10% 15%;
+    justify-content: space-between;
+}
+
+.container-content {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container-content-title {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.container-content-paragraph {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-links-button {
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.container-picture{
+    width: 700px;
+    height: 658px;
+}
+
+.container-content-titleStrong {
+    color: #22D4FD;
+}
+
+
+
+.container-content-name {
+    color: #22D4FD;
+    padding: 2px;
+    border: 1px solid #22D4FD;
+    border-radius: 6px;
+    margin: 2px;
+
+}
+
